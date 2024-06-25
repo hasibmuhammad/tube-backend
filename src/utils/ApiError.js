@@ -20,6 +20,8 @@ class ApiError extends Error {
   }
 }
 
+export { ApiError };
+
 // class ApiError extends Error {
 //   constructor(
 //     statusCode,
